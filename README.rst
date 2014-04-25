@@ -1,5 +1,11 @@
+**************************
+collective.customoverrides
+**************************
+
+.. contents:: Table of Contents
+
 CSS and JS overrides for Plone
-==============================
+------------------------------
 
 This product allows content managers to inject custom stylesheets and
 Javascript by adding a file to a folder. On that folder and its descendants,
@@ -11,7 +17,7 @@ http://plone.org/documentation/kb/create-a-different-look-and-feel-for-different
 for more info on that, and decide if you have a use for this product.
 
 How to use
-----------
+^^^^^^^^^^
 
 The main thing is to place a file called `custom.css` or `custom.js` ("custom
 files") in a folder. These files will then be inserted in a special viewlet in
@@ -20,7 +26,7 @@ the HTML HEAD section.
 There are two ways to manage custom files:
 
 Add a custom file using Plone
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Add a Plone File (ATFile). 
 
@@ -42,7 +48,7 @@ Also be aware that:
   navigation settings.
 
 Add a custom file using the ZMI
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Add a Zope File.
 
